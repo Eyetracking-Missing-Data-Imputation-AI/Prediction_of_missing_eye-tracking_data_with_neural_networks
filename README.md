@@ -1,5 +1,6 @@
 # Prediction_of_missing_eye-tracking_data_with_neural_networks
-This repository contains the source code and data for the paper "Prediction of missing eye-tracking data with neural networks (Haberkamp & Reddix, 2023)"  
+This repository contains the source code and data for the paper  
+"Prediction of missing eye-tracking data with neural networks" (Haberkamp & Reddix, 2023) 
 
 ## Prerequisites
 There is a requirement for both MATLAB and Python3    
