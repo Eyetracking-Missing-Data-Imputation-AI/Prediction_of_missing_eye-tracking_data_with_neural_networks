@@ -8,9 +8,9 @@ There is a requirement for both MATLAB and Python3
 
 ## Script Overview
 Our project requires the user run each of the 5 files sequentially to impute the missing point of gaze and gaze classification data  
-* A_Data_Preparation.m - Preprocesses the raw eye-tracking data to prepare for training the ML models and splits the dataset into training and validation  
+* A_Data_Preparation.m - Preprocesses the raw eye-tracking data for training the neural networks and splits the dataset into training and validation datasets  
 * B_TCN_Model.ipynb - Trains a temporal convolutional network to predict the point of gaze from the gaze direction, gaze origin, and eyelid opening values
-* C_Classifier.ipynb - Trains a multilayer perceptron to classify the point of gaze coordinates as relevant objects in teh flight smulator world model  
+* C_Classifier.ipynb - Trains a multilayer perceptron to classify the point of gaze coordinates as relevant objects in the flight smulator world model  
 * D_Predictions.ipynb  - Predicts the point of gaze and subsequently classifies it using the two above neural networks
 * E_Evaluate_Results.m - Determines the error compared to our ground truth dataset and determineshow much of the corrupted dataset is confidently recovered
 
