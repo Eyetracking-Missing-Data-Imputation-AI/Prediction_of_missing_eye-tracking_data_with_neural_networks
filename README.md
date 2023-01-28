@@ -4,7 +4,7 @@ This repository contains the source code and data for the paper "Prediction of m
 ## Prerequisites
 There is a requirement for both MATLAB and Python3    
 * MATLAB was utilized for preprocessing and analysis
-* Python3 was utilized to build the deep learning models and generate predictions
+* Python3 was utilized to train the deep learning models and generate predictions
 
 ## Script Overview
 Our project requires the user run each of the 5 files sequentially to impute the missing point of gaze and gaze classification data  
